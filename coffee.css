@@ -1,1 +1,155 @@
+nav {
+    display:flex;
+    justify-content:space-between;
+    position:sticky;
+    top:0;
+    background-color:#005c35;
+    border-radius:20px;
+}
+
+nav a:hover {
+    text-decoration:underline;
+    color:rgb(1, 41, 17);
+}
+
+nav ul a {
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:900;
+}
+
+nav ul {
+    list-style:none;
+    display:flex;
+    gap:60px;
+    align-items:center;
+    margin-right:auto;
+    margin-left:20px;
+}
+
+.side {
+    text-decoration:none;
+    border-radius:15px;
+    border:2px solid white;
+    color:white;
+    padding:12px;
+    margin-right:20px;
+}
+
+nav img {
+    width:85px;
+    margin-left:70px;
+}
+
+.hero {
+    height:90vh;
+    background: url("coffe.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    padding:120px;
+}
+
+.style {
+    color:#0d3e28;
+    font-size:20px;
+}
+
+.style1 {
+    color:#012421;
+    font-size:60px;
+    font-weight:800;
+}
+
+.btn {
+    background-color: #005c35;
+    color:white;
+    border-radius:10px;
+    display:inline-block;
+    padding:20px;
+}
+
+.btn a {
+    text-decoration:none;
+    color:white;
+}
+
+.style3 {
+    position:relative;
+    display:inline-block;
+    color:#005c35;
+    font-size:45px;
+    font-weight:900;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+.style3::after {
+    content:"";
+    position:absolute;
+    bottom:-10px;
+    left:50%;
+    width:40px;
+    height:4px;
+    background-color:#005c35;
+    transform: translatex(-50%)
+}
+
+body {
+    font-family: "Sora", sans-serif;
+}
+
+.grid {
+    margin-top:80px;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items:center;
+}
+
+.container {
+    background-color:antiquewhite;
+    border-radius:15px;
+    text-align:center;
+    padding:20px;
+}
+
+.hero2 {
+    height:90vh;
+    background:url("contact.jpg");
+    background-size:cover;
+    background-position:center;
+    padding:120px;
+}
+
+.contact-item {
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.icon {
+    font-size:40px;
+    color:#005c35;
+}
+
+.contact-item p {
+    font-size:20px;
+    margin:0;
+}
+
+a {
+    text-decoration:none;
+} 
+
+.madeby {
+    background-color:#005c35;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
 
